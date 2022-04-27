@@ -93,7 +93,7 @@ h3{
 /*Testimonial Section*/
 
 #testimonials{
-padding: 7% 15%;
+
 text-align: center;
 background-color: #ef8172;
 color: #ffff;
@@ -110,6 +110,14 @@ h2{
 width: 10%;
 border-radius: 100%;
 margin: 20px;
+}
+
+/*para darle mas espaciado a las flechas del carousel
+el carousel item es el div que contiene el texto y las fotos, esta antes de las flechas
+del carouse, entonces el padding a;ade espacio entre el contenido 
+y el borde*/
+.carousel-item{
+    padding: 7% 15%;/*7 top and bottom, 15 left and right*/
 }
 /*Testimonial Section*/
 /*************************************************************/
